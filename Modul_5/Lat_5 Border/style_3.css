@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(245, 209, 168);
+}
+
+h1 {
+    color: rgb(5, 54, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p.dotted {
+    border-style: dotted;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
+
+p.dashed {
+    border-style: dashed;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
+
+p.solid {
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
+
+p.double {
+    border-style: double;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
+
+p.groove {
+    border-style: groove;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
+
+p.ridge {
+    border-style: ridge;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
+
+p.inset {
+    border-style: inset;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
+
+p.outset {
+    border-style: outset;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
+
+p.none {
+    border-style: none;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    border-color: rgb(116, 28, 94);
+    color: rgb(222, 127, 235); 
+}
