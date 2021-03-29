@@ -1,0 +1,92 @@
+h1 {
+    color: rgb(207, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul {
+    position: relative;
+    overflow: hidden;
+    background-color: #b3dee9;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+li {
+    position: relative;
+    float: right;
+    right : 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+li a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+li a:hover {
+    background-color: rgb(16, 37, 107);
+}
+
+.home {
+    font-family: fantasy;
+    text-align: center;
+    height: 100%;
+    background-image: url(cover.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.home h1 {
+    padding-top: 15%;
+    font-size: 100px;
+}
+
+.home p {
+    font-size: 78px;
+}
+
+#about {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    height: fit-content;
+    background-color: violet;
+}
+
+#about img {
+    position: relative;
+    width: 200px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+#about p {
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 20px;
+}
+
+#lineup {
+    height: fit-content;
+    background-color: rgb(238, 130, 175);
+    padding-bottom: 5%;
+}
+
+#lineup h2 {
+    padding-top: 5%;
+    font-size: large;
+    color: rgb(207, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
