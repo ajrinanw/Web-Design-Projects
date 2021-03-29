@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(245, 209, 168);
+}
+
+h1 {
+    color: rgb(5, 54, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h4 {
+    color: rgb(56, 12, 65);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5 {
+    color: rgb(116, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kotak1 {
+    /*tanpa padding*/
+    border: 1px solid rgb(182, 38, 28);
+    background-color: rgb(221, 120, 73);
+}
+
+.kotak2 {
+    /*dengan padding*/
+    border: 1px solid rgb(4, 99, 19);
+    padding: 60px;
+    background-color: rgb(120, 182, 151);
+}
+
+.kotak3 {
+    /*tanpa margin*/
+    border: 1px solid rgb(61, 8, 30);
+    background-color: rgb(134, 102, 124);
+}
+
+.kotak4 {
+    /*dengan margin*/
+    border: 1px solid rgb(9, 49, 54);
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(61, 127, 158);
+}
