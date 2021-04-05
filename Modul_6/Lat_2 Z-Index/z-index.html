@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Belajar Z-Index</title>
+        <style>
+            #layera{
+                position: absolute; 
+                margin: 20px 300px;
+                height: 200px;
+                width: 200px;
+                background: crimson;
+                z-index: 2;
+            }
+
+            #layerb{
+                position: absolute;
+                margin: 100px;
+                height: 150px;
+                width: 300px;
+                background: rgb(20, 83, 220);
+                z-index: 1; 
+            }
+
+            #layerc{
+                position: absolute;
+                margin: 0 150px;
+                height: 200px;
+                width: 400px;
+                background: rgb(197, 20, 220);
+                z-index: 0;
+            }
+        </style>
+    </head>
+    <body bgcolor="lightgrey">
+        <div id="layera">LAYER A</div>
+        <div id="layerb">LAYER B</div>
+        <div id="layerc">LAYER C</div>
+    </body>
+</html>
