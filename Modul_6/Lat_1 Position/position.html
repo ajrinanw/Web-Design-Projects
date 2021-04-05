@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Belajar Position</title>
+        <style>
+            .static{
+                position: static;
+                left: 100px;
+                width: 300px;
+                height: 400px;
+                background: rgb(87, 14, 87);
+                color: cornsilk;
+            }
+
+            .relative{
+                position: relative;
+                left: 250px;
+                top: 20px;
+                width: 400px;
+                height: 200px;
+                background: rgb(95, 43, 131);
+                color: cornsilk;
+            }
+
+            .relative1{
+                position: relative;
+                left: 200px;
+                top: 20px;
+                width: 400px;
+                height: 200px;
+                background: rgb(175, 81, 241);
+                color: cornsilk;
+            }
+
+            .absolute1{
+                position: absolute;
+                left: 200px;
+                top: 150px;
+                width: 800px;
+                height: 100px;
+                background: rgb(175, 96, 126);
+                color: cornsilk;
+            }
+
+            .absolute2{
+                position: absolute;
+                left: 250px;
+                top: 180px;
+                width: 800px;
+                height: 100px;
+                background: rgb(189, 39, 97);
+                color: cornsilk;
+            }
+
+            .absolute3{
+                position: absolute;
+                left: 300px;
+                top: 210px;
+                width: 800px;
+                height: 100px;
+                background: rgb(187, 4, 74);
+                color: cornsilk;
+            }
+
+            .fixed{
+                left: 500px;
+                top: 0px;
+                position: fixed;
+                width: 100%;
+                height: fit-content;
+                background: rgb(247, 104, 104);
+                color: cornsilk;
+            }
+        </style>
+    </head>
+    <body bgcolor="lightgrey">
+        <div class="static">
+            POSITION STATIC. <br> Nilai left 100px tidak terpengaruh
+        </div>
+        <div class="relative">
+            POSITION RELATIVE. 
+        </div>
+        <div class="relative1">
+            POSITION RELATIVE. <br> Nilai left mengikuti kode
+        </div>
+        <div class="absolute1">
+            POSITION ABSOLUTE.
+        </div>
+        <div class="absolute2">
+            POSITION ABSOLUTE.
+        </div>
+        <div class="absolute3">
+            POSITION ABSOLUTE. <br> Dapat diletakkan dimana saja
+        </div>
+        <div class="fixed">
+            POSITION FIXED. <br> Posisi sama walau di scrool
+        </div>
+    </body>
+</html>
