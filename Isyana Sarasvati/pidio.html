@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isyana Sarasvati</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="sosmed">
+        <div class="list">
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UCsNmCa9ubwale8yTpHXJSGA" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="list">
+            <h1><a href="home.html">ISYANA SARASVATI</a></h1>
+            <ul>
+                <li><a href="home.html"> HOME </a></li>
+                <li><a href="playlist.html"> PLAYLIST </a></li>
+                <li class="active"><a href="pidio.html"> VIDEO </a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="cover">
+        <div class="container">
+            <div class="video-list">
+                <video class="active" src="video/video.webm" muted></video>
+                <video src="video/video1.webm" muted></video>
+                <video src="video/video2.mp4" muted></video>
+            </div>
+            <div class="main-video">
+                <video src="video.webm" muted controls></video>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $('.video-list video').click(function(){
+            $(this).addClass('active').siblings().removeClass('active');
+            let src = $(this).attr('src')
+            $('.main-video video').attr('src',src);
+        });
+    });
+    </script>
+</body>
+</html>
