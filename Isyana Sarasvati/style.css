@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.sosmed {
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+}
+.sosmed ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
+.list{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: rgb(0, 0, 0);
+}
+
+header ul{
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.active{
+    background-color: rgb(0, 0, 0);
+    color: white; 
+}
+
+.cover{
+    height: 85vh;
+    background-image: url(img/_1.png);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.cover h1{
+    margin-left: 80px;
+    padding: 70px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content{
+    width: 80%;
+    position: absolute;
+    top: 20%;
+}
+
+.font {
+    margin-left: 4%;
+}
+
+.font h1{
+    font-size: 70px;
+    line-height: 90px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    background-color: rgb(0, 0, 0);
+    height: 85vh;
+}
+
+#icon{
+    width: 40px;
+    cursor: pointer;
+}
+
+.about{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/cover.png);
+    background-size: cover;
+    position: relative;
+    padding-top: 50px;
+}
+
+.about table{
+    width: 90%;
+
+}
+
+tr{
+    height: 50%;
+}
+
+td{
+    word-break:normal;
+    width: 33%;
+}
+td img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+td h1{
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    font-family: 'Mr De Haviland', cursive;
+}
+
+h2{
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    font-family: 'KoHo', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    background-image: url(img/black.png);
+    background-size: cover;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer{
+    width: 100%;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    
+}
+
+.footer table{
+    width: 100%;
+}
+
+.footer table td{
+    width: 50%;
+    padding: 20px;
+}
+
+.footer table h1{
+    width: 100%;
+    font-size: 180px;
+    font-family: 'KoHo', sans-serif;
+    color: #fff;
+    text-align: right;
+}
+
+.content3{
+    width: 100%;
+}
+
+.row1{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(300px,1fr));
+}
+
+.col{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s; 
+}
+
+.input{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+
+.input input,
+.textarea textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.input input:focus + .text,
+.input input:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+
+.line{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.input input:focus ~ .line,
+.input input:valid ~ .line{
+    height: 100%;
+}
+
+.textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+
+.textarea textarea{
+    height: 100%;
+    resize: none;
+}
+
+.input textarea:focus + .text,
+.input textarea:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+
+.input textarea:focus ~ .line,
+.input textarea:valid ~ .line{
+    height: 100%;
+}
+
+#submit{
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
